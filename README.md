@@ -21,82 +21,64 @@ Cabin, Embarked location
 Survived (Target)
 
 📌 Features Used
+
 After preprocessing, the model uses the following features:
 
-Pclass
-
-Sex
-
-Age
-
-SibSp
-
-Parch
-
-Fare
-
-Embarked
+  Pclass
+  Sex
+  Age
+  SibSp
+  Parch
+  Fare
+  Embarked
 
 Missing values are handled using imputation techniques:
 
-Age: Filled with median
+  Age: Filled with median
 
-Embarked: Filled with mode
+  Embarked: Filled with mode
 
-Fare: Filled with median
+  Fare: Filled with median
 
 Categorical features like Sex and Embarked are encoded using LabelEncoder.
 
 🧠 Model Used
+
 Logistic Regression from scikit-learn
 
-n_estimators: 100
+  n_estimators: 100
 
-criterion: 'entropy'
+  criterion: 'entropy'
 
-random_state: 0
+  random_state: 42
 
-Accuracy achieved on the test set: ~81.56%
+  Accuracy achieved on the test set: ~82.12%
 
 🛠️ Installation
+
 Clone the repository:
 
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/titanic-survival-prediction.git
-cd titanic-survival-prediction
-Install the required packages:
+  git clone https://github.com/yourusername/titanic-survival-prediction.git
+  cd titanic-survival-prediction
+ 
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
-If requirements.txt isn't included, install manually:
-
-bash
-Copy
-Edit
-pip install pandas numpy scikit-learn matplotlib seaborn
 Run the notebook:
 
-bash
-Copy
-Edit
-jupyter notebook "Titanic Survival Prediction.ipynb"
+  jupyter notebook "Titanic Survival Prediction.ipynb"
+  
 📈 Output
+
 The model provides:
 
-Accuracy score
-
-Confusion matrix
-
-Heatmap visualization
-
-Prediction on test set
+  Accuracy score
+  Confusion matrix
+  Heatmap visualization
+  Prediction on test set
 
 📄 License
+
 This project is licensed under the MIT License.
 
 🤝 Contributing
+
 Feel free to fork the repo, open issues, or submit PRs!
