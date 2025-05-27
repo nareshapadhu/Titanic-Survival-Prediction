@@ -1,4 +1,5 @@
 🚢 Titanic Survival Prediction
+
 This project is a machine learning implementation to predict survival on the Titanic using the famous Titanic dataset from Kaggle. It uses data preprocessing, feature engineering, and Logistic Regression to predict whether a passenger survived or not.
 
 
